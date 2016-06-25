@@ -6,10 +6,12 @@ Data movie yang ada pada Daeng Movies ini diambil dari https://www.themoviedb.or
 source code ini masih sangat sangat hancur, kompleksitas pemrogramannya juga hancur jadi silahkan dirapikan bagi yang mau mengembangkan.
 
 ## screenshot
-![image](https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/13151626_1679788938952729_6386193075125817256_n.jpg?oh=e80844b8dd20191b2870307e689252a1&oe=57F1AA61)
-![image](https://scontent-sit4-1.xx.fbcdn.net/v/l/t1.0-9/13076960_1679788925619397_5447044103272753024_n.jpg?oh=4c1e64a480558402b168d0814596eee8&oe=58083C06)
-![image](https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/13151681_1679788855619404_664270973195319563_n.jpg?oh=c1ce3e4f4ddad72174cba3406b82643c&oe=57F18FA4)
-![image](https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/13133328_1679788845619405_3449428761109297544_n.jpg?oh=3386a51a04f911d78672d4c1894be20e&oe=57EBC8E3)
+<p align="center">
+  <img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/13151626_1679788938952729_6386193075125817256_n.jpg?oh=e80844b8dd20191b2870307e689252a1&oe=57F1AA61" width="350"/>
+  <img src="https://scontent-sit4-1.xx.fbcdn.net/v/l/t1.0-9/13076960_1679788925619397_5447044103272753024_n.jpg?oh=4c1e64a480558402b168d0814596eee8&oe=58083C06" width="350"/>
+  <img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/13151681_1679788855619404_664270973195319563_n.jpg?oh=c1ce3e4f4ddad72174cba3406b82643c&oe=57F18FA4" width="350"/>
+  <img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/13133328_1679788845619405_3449428761109297544_n.jpg?oh=3386a51a04f911d78672d4c1894be20e&oe=57EBC8E3" width="350"/>
+</p>
 
 ## License
 
