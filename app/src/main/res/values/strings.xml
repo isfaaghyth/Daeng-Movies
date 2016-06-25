@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Daeng Movies</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="openDrawer">Open Drawer </string>
+    <string name="closeDrawer">Close Drawer </string>
+</resources>

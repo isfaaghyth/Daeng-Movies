@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.toolbar.MainActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:titleCondensed="Search All Movies..."
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/mnPopuler"
+        android:title="Popular"
+        android:orderInCategory="0"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mnFavorit"
+        android:title="Top Rated"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/mnComing"
+        android:title="Up Coming"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/mnAbout"
+        android:title="About"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+</menu>

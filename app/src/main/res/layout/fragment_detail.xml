@@ -1,0 +1,129 @@
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="bacakomik.daeng.app.comic.DetailActivityFragment">
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/user_layout"
+                android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/imgMovie"
+                        android:src="@mipmap/ic_launcher"
+                        android:adjustViewBounds="false"
+                        android:scaleType="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="CardView"
+                        android:id="@+id/txtJudul"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffffffff"
+                        android:background="#96000000"
+                        android:padding="10dp"
+                        android:layout_gravity="bottom" />
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_below="@+id/user_layout"
+                android:orientation="vertical"
+                android:id="@+id/linearLayout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="deskripsi"
+                    android:id="@+id/txtDeskripsi"
+                    android:layout_below="@+id/list_title"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#96000000"
+                    android:padding="10dp"
+                    android:layout_gravity="bottom" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="tahun"
+                    android:id="@+id/txtTahun"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+            <TableLayout
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/tabel">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/isfa"
+                        android:src="@android:drawable/star_off"
+                        android:adjustViewBounds="true"
+                        android:scaleType="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/txtVote"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="6.6 / 100"
+                        android:paddingTop="5dp"
+                        android:textSize="13dp"
+                        android:paddingBottom="20dp"
+                        android:padding="2dp"/>
+
+                </TableRow>
+            </TableLayout>
+
+            <android.support.v7.widget.RecyclerView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/my_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_below="@+id/tabel"
+                android:clipToPadding="false"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:scrollbars="vertical"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
